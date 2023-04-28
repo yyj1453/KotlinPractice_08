@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "KotlinPractice08"
 include ':app'
+include ':keyevent'
+include ':viewevent'

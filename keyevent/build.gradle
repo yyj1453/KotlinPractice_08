@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'org.techtown.kotlinpractice08'
+    namespace 'org.techtown.keyevent'
     compileSdk 33
 
     defaultConfig {
-        applicationId "org.techtown.kotlinpractice08"
+        applicationId "org.techtown.keyevent"
         minSdk 21
         targetSdk 33
         versionCode 1

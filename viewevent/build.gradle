@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'org.techtown.kotlinpractice08'
+    namespace 'org.techtown.viewevent'
     compileSdk 33
 
     defaultConfig {
-        applicationId "org.techtown.kotlinpractice08"
+        applicationId "org.techtown.viewevent"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -29,6 +29,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    viewBinding {
+        enabled = true
     }
 }
 
